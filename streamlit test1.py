@@ -63,6 +63,31 @@
     "st.subheader('Map of all pickups at %s:00' % hour_to_filter)\n",
     "st.map(filtered_data)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "b0a4a50a-11a9-402e-b027-b521d7699a14",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Note: you may need to restart the kernel to use updated packages.\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'\n"
+     ]
+    }
+   ],
+   "source": [
+    "pip install -r requirements.txt"
+   ]
   }
  ],
  "metadata": {
